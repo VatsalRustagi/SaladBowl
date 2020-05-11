@@ -1,11 +1,11 @@
 language: node_js
 node_js:
-  - node
-  - lts/*
+- node
+- lts/*
 deploy:
   provider: heroku
   api_key:
-    secure: $HEROKU_API_KEY
+    secure: srLFdhsOkEJDDOA6G1l/ziNMxQpMZ4nmJ9Hx4T9E4PvQsXLq5fingZQIqM2hJNpftjy12nefRRzDPGLkWmSna4m2A37ufWOPeeDD/F+Ro5E5qZOUMmb1pqM1HEJwhXAYlKW64B61h7hT3M72GqP7wHHryOcuA7lQhFPqdVr6qWVBd3WDpoj7pmb08Jatq2IpswUShIh0QV12PbTb2ig7bj65pJCGrMrud9OEG3+uINaF21sGJnyfQscl/kiM/cX1Fk1xjEjjN87fsMZSnzgTnb9bJ60iUbse6NbALEuW5ltv5afwwP1Rx521WaPH1IlQOKOwePsMI09QHuSA0ROMUZde3UMcmQi2P3bREM/qZs41Am5QsDI9QEb8cX7X2pKWKPEbWWNl9Dy8UAzb6WFKTEnHyMHmleknHuKOQahCej/x7pfcwRmvWR/NGpRRGrIPRvPoFGPeV1QCDAq83SeHVNPHZi1jWLla2jUcD16HFPjfWKID63XTlZiGoSmgzkoqM9bFmf4eMoWFv2LqP4wSCwcQldlMUsB5srNG9BnX6kiE/ZsInCZLAYeejQedSsN57+FOK4McrQWjBzoSvyhdYqyzPxBnuJ6/vcfXFpfCCPiaq6E9BaeIz2gPZg9gaoA5S0eGvRn5RHvZfp1ofUuqbx7t+4QRgnV4dTnndkn0iSc=
   app: salad-bowl-web-app
   on:
     repo: VatsalRustagi/SaladBowl
